@@ -5,10 +5,17 @@
 body {
     font-family: 'Bebas Neue', cursive;
     margin: 0;
-    background-color: #c24323;
+    background-image: url("./assets/weather.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     color: #fff;
 }
 
 .container {
     max-width: 450px;
+}
+
+input:focus {
+    outline: none !important
 }
