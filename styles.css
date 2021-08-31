@@ -16,6 +16,10 @@ body {
     max-width: 450px;
 }
 
+input {
+    font-size: 24px !important;
+}
+
 input:focus {
     outline: none !important
 }
